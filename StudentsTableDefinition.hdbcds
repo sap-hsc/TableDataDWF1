@@ -1,0 +1,11 @@
+namespace "SourceData";
+
+/*@@layout{"layoutInfo":{"x":-1079,"y":-283}}*/
+entity Students {
+    key ID     : Integer not null;
+        NAME   : String(100);
+        SITE   : String(100);
+        GENDER : String(100);
+        AGE    : String(100);
+        SCORE  : Double;
+};
